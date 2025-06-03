@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# VS Code / IDE configs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and local databases
+*.log
+*.sqlite3
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# Pydantic cache (for v2+)
+.pydantic/
+
+# Uvicorn reload file
+.reload
